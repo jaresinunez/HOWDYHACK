@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavingsScreens.BlankFragment3"
+    android:background="@color/light_yellow"
+    android:backgroundTint="@color/light_yellow"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Real Estate"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textColorHint="#0D3D30"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="Real estate investing is where you invest in immovable property, like a house.But real estate could also be commercial property, like an office, store or land."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="275dp"
+        android:text="There are two ways to make money from real estate. You get an appreciation in price, where you sell it for more money than you bought it for Money that you get if you give your property out on rent"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="500dp"
+        android:maxWidth="10000dp"
+        android:maxHeight="10000dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="135dp"
+        android:src="@drawable/realestate"
+        />
+</FrameLayout>

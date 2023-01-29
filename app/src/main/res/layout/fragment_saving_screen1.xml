@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavingsScreens.BlankFragment"
+    android:background="@color/light_yellow"
+    android:backgroundTint="@color/light_yellow"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Savings"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textColorHint="@color/dark_green"
+        android:textColorLink="@color/dark_green"
+     />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="Savings is when you recive money from either a job, or another source and you save it away for another time and over time you save more and more money"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="275dp"
+        android:text="It's important that you save your money because in the future you will have more money to spend on the things you want "
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="500dp"
+        android:maxWidth="10000dp"
+        android:maxHeight="10000dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="145dp"
+        android:src="@drawable/savings"
+        />
+
+</FrameLayout>

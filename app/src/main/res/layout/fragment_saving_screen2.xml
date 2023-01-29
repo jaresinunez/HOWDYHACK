@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavingsScreens.BlankFragment2"
+    android:background="@color/light_yellow"
+    android:backgroundTint="@color/light_yellow"
+    >
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Stock Market"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textColorHint="#0D3D30"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="The stock market is where investors connect to buy and sell investments — most commonly, stocks, which are shares of ownership in a public company."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="275dp"
+        android:text="Well, you would want to buy a stock because if this company that you buy the stock in does well, then, the stock price – which is how much you bought it for – will go up."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="500dp"
+        android:maxWidth="100000dp"
+        android:maxHeight="100000dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/stockmarket"
+        />
+</FrameLayout>
