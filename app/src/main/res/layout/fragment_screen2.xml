@@ -131,6 +131,7 @@
                 android:src="@drawable/toys"/>
 
             <ImageView
+                android:visibility="gone"
                 android:layout_width="0sp"
                 android:layout_height="0sp"
                 android:layout_marginBottom="20sp"

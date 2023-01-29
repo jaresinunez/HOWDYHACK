@@ -21,4 +21,6 @@
     <string name="budget_2">We take care of things so they last longer</string>
     <string name="needs_vs_wants">Needs VS. Wants</string>
     <string name="budget_4">A budget starts with knowing what is a want and waht is a need.</string>
+    <string name="close"><u>Close</u></string>
+    <string name="finish">Finish</string>
 </resources>

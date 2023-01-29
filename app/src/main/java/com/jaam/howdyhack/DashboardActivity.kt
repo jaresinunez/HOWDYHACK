@@ -13,7 +13,11 @@ class DashboardActivity : AppCompatActivity() {
         binding = ActivityDashboardBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.continueButton?.setOnClickListener {  }
+        binding.continueButton?.setOnClickListener {
+            val i = Intent(this,NewIncomeActivity::class.java)
+            startActivity(i)
+            finish()
+        }
 
         binding.game1?.setOnClickListener {  }
         binding.game2?.setOnClickListener {  }
@@ -21,9 +25,9 @@ class DashboardActivity : AppCompatActivity() {
         binding.game4?.setOnClickListener {  }
 
         binding.incomeButton.setOnClickListener {
-            //val i = Intent(this, IncomeActivity::class.java)
-            //startActivity(i)
-            //finish()
+            val i = Intent(this, IncomeActivity::class.java)
+            startActivity(i)
+            finish()
         }
         binding.spendingButton.setOnClickListener {
             val i = Intent(this, BudgetActivity::class.java)
