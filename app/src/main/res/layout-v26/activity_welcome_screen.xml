@@ -71,7 +71,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="@id/logoBottom"
         android:elevation="10sp"
-        android:src="@drawable/newpig" />
+        android:src="@drawable/piggy_bank_with_money" />
 
     <Button
         android:id="@+id/continueButton"

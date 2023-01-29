@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreditActivity.BlankFragment4"
+    tools:context=".creditActivity.BlankFragment4"
     android:background="@color/light_yellow"
     android:backgroundTint="@color/light_yellow"
     >

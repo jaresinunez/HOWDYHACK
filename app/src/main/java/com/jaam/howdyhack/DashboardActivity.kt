@@ -36,7 +36,7 @@ class DashboardActivity : AppCompatActivity() {
             finish()
         }
         binding.creditButton.setOnClickListener {
-            val i = Intent(this, CreditActvity::class.java)
+            val i = Intent(this, CreditActivity::class.java)
             startActivity(i)
             finish()
         }

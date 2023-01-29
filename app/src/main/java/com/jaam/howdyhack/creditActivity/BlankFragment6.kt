@@ -1,4 +1,4 @@
-package com.jaam.howdyhack.CreditActivity
+package com.jaam.howdyhack.creditActivity
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
