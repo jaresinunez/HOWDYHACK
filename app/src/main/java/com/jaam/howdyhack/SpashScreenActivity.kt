@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
         setContentView(R.layout.activity_spash_screen)
         handler=Handler()
         handler.postDelayed({
-            val i = Intent(this, DashboardActivity::class.java)
+            val i = Intent(this, WelcomeScreenActivity::class.java)
             startActivity(i)
             finish()
         }, 3500)

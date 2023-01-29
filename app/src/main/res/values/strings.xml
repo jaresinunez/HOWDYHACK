@@ -14,7 +14,7 @@
     <string name="games">Games</string>
     <string name="welcome_back">Welcome back!</string>
     <string name="explore">Explore</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_lets_get_started">Welcome, lets \nget Started!</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="budgeting">What is budgeting?</string>
     <string name="budget_1">When you have money it is important to take care of it</string>

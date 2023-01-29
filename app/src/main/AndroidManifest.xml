@@ -21,6 +21,22 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".SavingsActivity"
+            android:theme="@style/InvertedColors_NoActionBar"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".WelcomeScreenActivity"
+            android:theme="@style/InvertedColors_NoActionBar"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".DashboardActivity"
             android:exported="false"
             android:theme="@style/InvertedColors_NoActionBar">
