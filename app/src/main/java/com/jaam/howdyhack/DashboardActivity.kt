@@ -45,9 +45,9 @@ class DashboardActivity : AppCompatActivity() {
             finish()
         }
         binding.govAssistanceButton.setOnClickListener {
-            //val i = Intent(this, IncomeActivity::class.java)
-            //startActivity(i)
-            //finish()
+            val i = Intent(this, GovHelpActivity::class.java)
+            startActivity(i)
+            finish()
         }
     }
 }
