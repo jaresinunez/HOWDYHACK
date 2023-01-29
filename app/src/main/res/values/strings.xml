@@ -19,4 +19,6 @@
     <string name="budgeting">What is budgeting?</string>
     <string name="budget_1">When you have money it is important to take care of it</string>
     <string name="budget_2">We take care of things so they last longer</string>
+    <string name="needs_vs_wants">Needs VS. Wants</string>
+    <string name="budget_4">A budget starts with knowing what is a want and waht is a need.</string>
 </resources>
