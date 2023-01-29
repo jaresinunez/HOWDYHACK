@@ -31,14 +31,14 @@ class DashboardActivity : AppCompatActivity() {
             finish()
         }
         binding.savingButton.setOnClickListener {
-            //val i = Intent(this, SavingActivity::class.java)
-            //startActivity(i)
-            //finish()
+            val i = Intent(this, SavingsActivity::class.java)
+            startActivity(i)
+            finish()
         }
         binding.creditButton.setOnClickListener {
-            //val i = Intent(this, Credit Activity::class.java)
-            //startActivity(i)
-            //finish()
+            val i = Intent(this, CreditActvity::class.java)
+            startActivity(i)
+            finish()
         }
         binding.govAssistanceButton.setOnClickListener {
             //val i = Intent(this, IncomeActivity::class.java)
