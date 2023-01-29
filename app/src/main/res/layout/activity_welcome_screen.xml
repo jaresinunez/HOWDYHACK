@@ -45,7 +45,7 @@
             android:textSize="25sp"
             android:text="Continue"
             android:soundEffectsEnabled="true"
-            app:shapeAppearanceOverlay="@style/ImageView.Corner" />
+            app:shapeAppearanceOverlay="@style/ImageView.Corner_welcomeScreen" />
 
 
 

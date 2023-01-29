@@ -24,6 +24,12 @@
         <item name="colorPrimaryDark">@color/green</item>
     </style>
 
+    <style name="ImageView.Corner_welcomeScreen" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="welcomeText">Welcome</style>
+
     <style name="ImageView.Corner" parent="">
         <item name="cornerSizeTopRight">15dp</item>
         <item name="cornerSizeTopLeft">15dp</item>
