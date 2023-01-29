@@ -3,12 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreditActivity.BlankFragment4">
+    tools:context=".CreditActivity.BlankFragment4"
+    android:background="@color/light_yellow"
+    android:backgroundTint="@color/light_yellow"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Credit"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textColorHint="@color/dark_green"
+        android:textColorLink="@color/dark_green"
+        />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="is determined by their payment history, how much money they owe, length of credit history, the types of credit they owe, and the number of recently opened accounts."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="275dp"
+        android:text="It's important that you keep and maintain a high credit score because you get access to more options, lower interest rates, and more lender choices. "
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="500dp"
+        android:maxWidth="10000dp"
+        android:maxHeight="10000dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/creditcard"
+        />
 </FrameLayout>
