@@ -19,7 +19,7 @@ class SpashScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_spash_screen)
         handler=Handler()
         handler.postDelayed({
-            val i = Intent(this, MainActivity::class.java)
+            val i = Intent(this, DashboardActivity::class.java)
             startActivity(i)
             finish()
         }, 3500)
