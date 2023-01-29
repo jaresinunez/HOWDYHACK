@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:theme="@style/InvertedColors_NoActionBar"
     tools:context=".WelcomeScreenActivity"
+    android:background="@color/white"
     >
 
     <androidx.constraintlayout.widget.Guideline
@@ -35,46 +37,54 @@
 
     <TextView
         android:id="@+id/welcomeText"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
         android:layout_centerHorizontal="true"
-        android:autoSizeMaxTextSize="100sp"
-        android:autoSizeMinTextSize="12sp"
-        android:autoSizeStepGranularity="2sp"
-        android:autoSizeTextType="uniform"
         android:gravity="center"
-        android:text="Welcome Lets get Started!"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="@id/textBottom"
-        app:layout_constraintEnd_toEndOf="@id/textEnd"
-        app:layout_constraintHorizontal_bias="0.261"
+        android:autoSizeTextType="uniform"
+        android:layout_marginHorizontal="20sp"
+        app:layout_constraintTop_toTopOf="@id/textTop"
         app:layout_constraintStart_toStartOf="@id/textStart"
-        app:layout_constraintTop_toTopOf="@id/textTop" />
+        app:layout_constraintEnd_toEndOf="@id/textEnd"
+        app:layout_constraintBottom_toBottomOf="@id/textBottom"
+        android:text="@string/welcome_lets_get_started"
+        android:textColor="@color/dark_green"
+        android:layout_marginBottom="25sp"
+        android:textSize="35sp"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/logoBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".68"/>
 
     <ImageView
-        android:id="@+id/appLogo"
-        android:layout_width="match_parent"
-        android:layout_height="380sp"
-        android:layout_alignParentTop="true"
+        android:id="@+id/newpig"
+        android:layout_width="0sp"
+        android:layout_height="0sp"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="top"
-        app:layout_constraintTop_toBottomOf="@id/welcomeText"
+        app:layout_constraintTop_toBottomOf="@id/textBottom"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:src="@drawable/logo" />
+        app:layout_constraintBottom_toBottomOf="@id/logoBottom"
+        android:elevation="10sp"
+        android:src="@drawable/newpig" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:layout_marginVertical="50sp"
         android:layout_marginHorizontal="50sp"
-        android:layout_marginBottom="100sp"
-        android:elevation="10sp"
-        android:background="@drawable/yellow_pink_gradient"
-        android:textColor="@color/black"
+        android:textColor="@color/dark_green"
         android:textSize="25sp"
         android:text="Continue"
         android:soundEffectsEnabled="true"
-        app:layout_constraintTop_toBottomOf="@id/appLogo"
+        app:layout_constraintTop_toBottomOf="@id/newpig"
+        android:background="@drawable/yellow_pink_gradient"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:shapeAppearanceOverlay="@style/ImageView.Corner_welcomeScreen" />
