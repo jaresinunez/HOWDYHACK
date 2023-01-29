@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    tools:context=".incomeSreen.IncomeScreen1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:textSize="45dp"
+        android:text="Income"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="320dp"
+        android:text="Where can you earn some?\n \n Money can come in many forms
+the most common are: \n \n Tips \n \n Employment \n \n Starting a business"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textSize="30dp"
+        >
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="305dp"
+        android:layout_height="323dp"
+        android:layout_marginLeft="75dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="500dp"
+        android:maxHeight="500dp"
+        android:paddingTop="100dp"
+        android:src="@drawable/lemonade"
+
+        ></ImageView>
+
+
+
+
+</FrameLayout>
