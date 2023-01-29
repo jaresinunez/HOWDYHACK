@@ -1,5 +1,6 @@
 package com.jaam.howdyhack
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -22,6 +23,11 @@ class SavingsActivity : AppCompatActivity() {
         val pagerAdapter = BudgetActivityPagerAdapter(this)
         binding.coachingViewpager.adapter = pagerAdapter
         binding.dotsIndicator.setViewPager2(binding.coachingViewpager)
+        binding.close.setOnClickListener {
+            val i = Intent(this, DashboardActivity::class.java)
+            startActivity(i)
+            finish()
+        }
     }
 
     private inner class BudgetActivityPagerAdapter(fa: FragmentActivity): FragmentStateAdapter(fa){

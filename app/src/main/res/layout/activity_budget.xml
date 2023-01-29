@@ -41,8 +41,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:dotsColor="@color/yellow"
             app:dotsCornerRadius="8dp"
@@ -52,18 +52,17 @@
             app:progressMode="true"
             app:selectedDotColor="@color/light_yellow" />
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/skipEnd"
+        <Button
+            android:id="@+id/close"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.23847761"/>
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/arrowStart"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.82952239"/>
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/close"
+            android:textAppearance="@style/button_style"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/dots_indicator"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

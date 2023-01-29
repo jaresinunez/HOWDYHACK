@@ -3,13 +3,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/yellow_pink_gradient"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
     tools:context=".budgetScreens.Screen3">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/endGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".75"/>
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/startGuide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".25"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tracking"
+            android:textSize="35sp"
+            android:layout_marginTop="15sp"
+            android:layout_gravity="center_horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
 
+        <ImageView
+            android:id="@+id/pieChart"
+            android:layout_width="0sp"
+            android:layout_height="250sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/pie_chart"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/endGuide"
+            app:layout_constraintBottom_toTopOf="@id/text4"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_4"
+            android:layout_marginEnd="20sp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            app:layout_constraintStart_toStartOf="@id/startGuide"
+            app:layout_constraintTop_toBottomOf="@id/pieChart"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            app:layout_constraintTop_toBottomOf="@id/text4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/play_a_game"
+            android:backgroundTint="@color/light_yellow"
+            android:textSize="25sp"
+            android:background="@drawable/button_budget_screen3"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

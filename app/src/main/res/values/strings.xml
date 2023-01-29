@@ -21,4 +21,7 @@
     <string name="budget_2">We take care of things so they last longer</string>
     <string name="needs_vs_wants">Needs VS. Wants</string>
     <string name="budget_4">A budget starts with knowing what is a want and waht is a need.</string>
+    <string name="text_4">The way we put these ideas together is called budgeting. We seperate our money into parts for things we want to buy, are saving to buy, or need to buy.</string>
+    <string name="play_a_game">Play a Game</string>
+    <string name="close"><u>Close</u></string>
 </resources>
