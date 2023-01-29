@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
@@ -44,7 +45,6 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:layout_marginStart="60sp"
                     android:layout_width="80sp"
                     android:layout_height="match_parent"
                     android:src="@drawable/pfp"
@@ -79,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="175sp"
                 android:paddingHorizontal="10sp"
+                android:layout_marginStart="10sp"
                 android:layout_marginTop="15sp"
                 >
                 <LinearLayout
@@ -129,26 +130,31 @@
                 android:id="@+id/incomeButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
                 android:text="Income"/>
             <Button
                 android:id="@+id/spendingButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
                 android:text="Spending"/>
             <Button
                 android:id="@+id/savingButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
                 android:text="Saving"/>
             <Button
                 android:id="@+id/creditButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
                 android:text="Credit"/>
             <Button
                 android:id="@+id/govAssistanceButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20sp"
                 android:text="Government Help"/>
 
         </LinearLayout>
