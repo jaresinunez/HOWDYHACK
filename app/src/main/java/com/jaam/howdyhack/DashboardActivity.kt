@@ -14,7 +14,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.continueButton?.setOnClickListener {
-            val i = Intent(this,NewIncomeActivity::class.java)
+            val i = Intent(this,MaybeIncomeActivity::class.java)
             startActivity(i)
             finish()
         }

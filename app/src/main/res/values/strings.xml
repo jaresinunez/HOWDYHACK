@@ -23,4 +23,8 @@
     <string name="budget_4">A budget starts with knowing what is a want and waht is a need.</string>
     <string name="close"><u>Close</u></string>
     <string name="finish">Finish</string>
+    <string name="income">Income</string>
+    <string name="where_can_you_earn_some">Where can you earn some?</string>
+    <string name="money_can_come_in_many_forms_the_most_common_are">Money can come in many forms the most common are:</string>
+    <string name="tips_nemployment_nstarting_a_business">Tips \nEmployment \nStarting a business</string>
 </resources>
