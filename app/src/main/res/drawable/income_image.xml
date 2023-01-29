@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="40dp"
+        android:layout_height="40dp">
+
+        <ImageView android:id="@+id/pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/applogo" />
+
+        <ImageView android:id="@+id/circle_crop"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/game_placeholder" />
+
+</FrameLayout>
