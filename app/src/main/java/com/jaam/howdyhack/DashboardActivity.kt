@@ -14,7 +14,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.continueButton?.setOnClickListener {
-            val i = Intent(this,MaybeIncomeActivity::class.java)
+            val i = Intent(this,IncomeScreenAgainActivity::class.java)
             startActivity(i)
             finish()
         }
@@ -25,7 +25,7 @@ class DashboardActivity : AppCompatActivity() {
         binding.game4?.setOnClickListener {  }
 
         binding.incomeButton.setOnClickListener {
-            val i = Intent(this, IncomeActivity::class.java)
+            val i = Intent(this, IncomeScreenAgainActivity::class.java)
             startActivity(i)
             finish()
         }

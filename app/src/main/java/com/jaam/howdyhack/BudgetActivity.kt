@@ -11,7 +11,7 @@ import com.jaam.howdyhack.budgetScreens.Screen2
 import com.jaam.howdyhack.budgetScreens.Screen3
 import com.jaam.howdyhack.databinding.ActivityBudgetBinding
 
-private const val NUM_PAGES =3
+private const val NUM_PAGES =2
 
 class BudgetActivity : AppCompatActivity() {
     private lateinit var binding: ActivityBudgetBinding
@@ -44,9 +44,6 @@ class BudgetActivity : AppCompatActivity() {
                 }
                 1 -> {
                     screen = Screen2()
-                }
-                2 -> {
-                    screen = Screen3()
                 }
                 else -> {
                     screen = Screen1()
