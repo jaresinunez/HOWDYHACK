@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creditActivity.BlankFragment6"
+    android:background="@color/light_yellow"
+    android:backgroundTint="@color/light_yellow"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Financing"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textColorHint="@color/dark_green"
+        android:textColorLink="@color/dark_green"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="is the process of providing funds for business activities, making purchases, or investing. Financial institutions, such as banks, are in the business of providing capital to businesses, consumers, and investors to help them achieve their goals."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="340dp"
+        android:text="For example, financing a car "
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="500dp"
+        android:maxWidth="10000dp"
+        android:maxHeight="10000dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/carloan"
+        />
+</FrameLayout>

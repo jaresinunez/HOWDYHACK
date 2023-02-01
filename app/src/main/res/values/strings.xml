@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">HOWDYHACK</string>
+    <string name="title_activity_spash_screen">SpashScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="developed_by_jaam">Developed by JAAM</string>
+    <string name="continue_text">Continue . . .</string>
+    <string name="games">Games</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="explore">Explore</string>
+    <string name="welcome_lets_get_started">Welcome, lets \nget Started!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="budgeting">What is budgeting?</string>
+    <string name="budget_1">When you have money it is important to take care of it</string>
+    <string name="budget_2">We take care of things so they last longer</string>
+    <string name="needs_vs_wants">Needs VS. Wants</string>
+    <string name="budget_4">A budget starts with knowing what is a want and waht is a need.</string>
+    <string name="close"><u>Close</u></string>
+    <string name="finish">Finish</string>
+    <string name="income">Income</string>
+    <string name="where_can_you_earn_some">Where can you earn some?</string>
+    <string name="money_can_come_in_many_forms_the_most_common_are">Money can come in many forms the most common are:</string>
+    <string name="tips_nemployment_nstarting_a_business">Tips \nEmployment \nStarting a business</string>
 </resources>

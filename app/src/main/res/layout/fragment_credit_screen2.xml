@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creditActivity.BlankFragment5"
+    android:background="@color/light_yellow"
+    android:backgroundTint="@color/light_yellow"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Loans"
+        android:textSize="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/dark_green"
+        android:textColorHint="@color/dark_green"
+        android:textColorLink="@color/dark_green"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="80dp"
+        android:text="money that you borrow from someone for a specific purpose or an unforeseen event with a promise to pay back."
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="270dp"
+        android:text="There are many reasons someone might need to take a loan. These include paying for college, buying a house, paying for a wedding, and buying a car. "
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:paddingTop="500dp"
+        android:maxWidth="10000dp"
+        android:maxHeight="10000dp"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="85dp"
+        android:src="@drawable/loan"
+        />
+</FrameLayout>
